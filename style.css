@@ -50,13 +50,6 @@ body {
 
 .badges img {
   height: 40px;
-  filter: drop-shadow(0 0 8px #0ff);
-  transition: transform 0.3s;
-}
-
-.badges img:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(0 0 12px #ff00de);
 }
 
 /* Intro */
