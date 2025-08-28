@@ -1,0 +1,117 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  text-align: center;
+}
+
+/* Neon Title */
+.neon-title {
+  font-size: 3rem;
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #00f6ff, 0 0 40px #00f6ff;
+  margin-bottom: 20px;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #0ff, 0 0 20px #00f6ff, 0 0 40px #00f6ff;
+  }
+  to {
+    text-shadow: 0 0 20px #ff00de, 0 0 40px #ff00de, 0 0 80px #ff00de;
+  }
+}
+
+/* Intro */
+.intro {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+/* Project Cards */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid #0ff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px #0ff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff00de;
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.project-card p {
+  color: #aaa;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: #0ff;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #0ff;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #ff00de;
+  box-shadow: 0 0 15px #ff00de;
+}
+
+/* Contact Section */
+.contact {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.contact a {
+  color: #0ff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #ff00de;
+}
