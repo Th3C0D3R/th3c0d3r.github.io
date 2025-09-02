@@ -93,6 +93,10 @@ body {
   margin-bottom: 15px;
 }
 
+.padding-0{
+  padding: 0;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
