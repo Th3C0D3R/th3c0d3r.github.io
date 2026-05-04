@@ -9,6 +9,21 @@
 
 ---
 
+## 🔹 [IDM - Patcher](https://github.com/Th3C0D3R/IDM-Unlock-Script)  
+![License](https://img.shields.io/github/license/Th3C0D3R/IDM-Unlock-Script)
+![Stars](https://img.shields.io/github/stars/Th3C0D3R/IDM-Unlock-Script)
+![Language](https://img.shields.io/github/languages/top/Th3C0D3R/IDM-Unlock-Script)
+
+**Description:**  
+A pure Python-script to patch **IDM** (**Internet Download Manager**) from version **6.42 Build 63**!  
+
+**Features:**  
+✔ Overwrite original file  
+✔ Try-Run without actual patching  
+✔ Works 100% offline ~~in the browser~~
+
+---
+
 ## 🔹 [JourneyMap Combiner](https://github.com/Th3C0D3R/journeymap-combiner)  
 ![License](https://img.shields.io/github/license/Th3C0D3R/journeymap-combiner)
 ![Stars](https://img.shields.io/github/stars/Th3C0D3R/journeymap-combiner)
