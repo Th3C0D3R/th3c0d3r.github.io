@@ -24,6 +24,21 @@ A pure Python-script to patch **IDM** (**Internet Download Manager**) from versi
 
 ---
 
+## 🔹 [Various KeyGen](https://github.com/Th3C0D3R/universal-keygen-web)  
+![License](https://img.shields.io/github/license/Th3C0D3R/universal-keygen-web)
+![Stars](https://img.shields.io/github/stars/Th3C0D3R/universal-keygen-web)
+![Language](https://img.shields.io/github/languages/top/Th3C0D3R/universal-keygen-web)
+
+**Description:**  
+A modular, browser-based key generator built with pure JavaScript, HTML, and CSS, featuring a module registry and client-side DSA serial generation.
+
+**Features:**  
+✔ Pure client-side cryptography   
+
+**Live Demo:** [Try it here](https://dev.th3.ovh/universal-keygen-web/)
+
+---
+
 ## 🔹 [JourneyMap Combiner](https://github.com/Th3C0D3R/journeymap-combiner)  
 ![License](https://img.shields.io/github/license/Th3C0D3R/journeymap-combiner)
 ![Stars](https://img.shields.io/github/stars/Th3C0D3R/journeymap-combiner)
@@ -38,23 +53,6 @@ A web-based tool to combine **JourneyMap** tiles into a single large map image.
 ✔ Works 100% offline in the browser  
 
 **Live Demo:** [Try it here](https://th3c0d3r.github.io/journeymap-combiner)
-
----
-
-## 🔹 [MacroRecorder KeyGen](https://github.com/Th3C0D3R/MacroRecorder_KeyGen)  
-![License](https://img.shields.io/github/license/Th3C0D3R/MacroRecorder_KeyGen)
-![Stars](https://img.shields.io/github/stars/Th3C0D3R/MacroRecorder_KeyGen)
-![Language](https://img.shields.io/github/languages/top/Th3C0D3R/MacroRecorder_KeyGen)
-
-**Description:**  
-A retro-style key generator (educational project) featuring **pure JavaScript DSA implementation** with neon UI.  
-
-**Features:**  
-✔ Pure client-side cryptography  
-✔ Animated neon interface  
-✔ Clipboard auto-copy for generated keys  
-
-**Live Demo:** [Try it here](https://th3c0d3r.github.io/MacroRecorder_KeyGen)
 
 ---
 
